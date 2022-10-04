@@ -57,5 +57,7 @@ skillset_navs.forEach((nav_button) => {
 
     const current_page = Number(active_nav.dataset.button);
     render_skills(skillset_pages[current_page]);
+
+    document.querySelector(".skillset").scrollIntoView({ behavior: "smooth" });
   });
 });
