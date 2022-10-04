@@ -1,0 +1,15 @@
+.navigation-buttons {
+    display: flex;
+    gap: .5vw;
+}
+
+.navigation-buttons button {
+    width: 3vw;
+    height: 3vw;
+
+    font-size: 1vw;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}

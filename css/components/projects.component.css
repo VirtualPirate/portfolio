@@ -1,0 +1,95 @@
+.projects {
+    background-color: #E8F4FF;
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 10vw; */
+    padding-bottom: 10vw;
+
+    
+}
+
+.projects-heading {
+    font-size: 2vw;
+    font-weight: bold;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    padding: 1vw 5vw;
+    background-color: #64aef2;
+    color: white;
+    width: 50%;
+
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.project {
+    /* padding: 1vw; */
+    display: flex;
+    gap: 0.5vw;
+}
+
+.project-screenshot {
+    width: 22vw;
+    height: 17vw;
+    background-color: white;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+
+    width: 58vw;
+    height: 17vw;
+    background-color: white;
+    
+    justify-content: space-between;
+    /* padding-left: 5vw;
+    padding-right: 5vw; */
+    padding: 1vw 5vw;
+    padding-bottom: 0;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.project-name {
+    font-size: 2vw;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 1vw;
+    border-bottom: .13vw solid grey;
+}
+
+.project-links {
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.project-links a {
+    color: #64aef2;
+    text-decoration: none;
+    font-size: 1vw;
+    justify-self: start;
+}
+
+.created-using {
+    font-weight: bold;
+    margin-top: 2vw;
+    height: 7vw;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+    padding: 1vw 2vw;
+    font-size: 1.3vw;
+
+    display: flex;
+    gap: 1vw;
+}
+
+.created-using-logo {
+    height: 3vw;
+}

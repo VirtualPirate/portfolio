@@ -1,0 +1,46 @@
+.intro {
+    display: flex;
+    gap: 18vw;
+}
+
+.profile-img {
+    width: 20vw;
+    /* margin-bottom: 20vw; */
+}
+
+.intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.intro-contact-button {
+    color: #555;
+    box-sizing: content-box;
+    padding: 1vw 2VW;
+    border: .1vw solid #aaa;
+    font-size: 2vw;
+    font-weight: bold;
+
+    box-shadow: .3vw .3vw 0px 0px #aaa;
+    
+}
+
+.intro-contact-button:active {
+    transform: translate(.3vw, .3vw);
+    box-shadow: none;
+}
+
+.intro-text {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.web-developer-tag {
+    font-size: 2.5vw;
+    padding: 1vw 2vw;
+    background-color: #64AEF2;
+    border-radius: 100vw;
+    color: white;
+}
