@@ -11,10 +11,15 @@
 .intro-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 3vw;
     align-items: flex-start;
 
     width: 50vw;
+}
+
+.intro-text-profile-img{
+    display: none;
 }
 
 .intro-contact-button {
@@ -26,6 +31,7 @@
     font-weight: bold;
 
     box-shadow: .3vw .3vw 0px 0px #aaa;
+    justify-self: flex-end;
     
 }
 
@@ -82,16 +88,42 @@
 
 @media (max-width: 600px) {
     .intro {
-        padding: 0;
+        /* padding: 0; */
+    }
+    .intro-text-wrapper {
+        display: flex;
+        gap: 5vw;
+    }
+    .intro-text-profile-img {
+        display: block;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 2vw;
+        
     }
     .profile-img {
-        /* width: 20vw; */
+        width: 30vw;
+        display: none;
     }
     .intro-wrapper {
-        width: 55vw;
+        width: 100vw;
+        gap: 5vw;
+    }
+
+    .intro-text {
+        font-size: 5vw;
+    }
+
+    .web-developer-tag {
+        font-size: 4.5vw;
     }
 
     .intro-content {
-        font-size: 1.4vw;
+        font-size: 2.5vw;
+    }
+
+    .intro-contact-button {
+        padding: 2vw 4vw;
+        font-size: 4vw;
     }
 }
