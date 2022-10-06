@@ -6,10 +6,40 @@
 .navigation-buttons button {
     width: 3vw;
     height: 3vw;
+    background-color: #E8F4FF;
 
     font-size: 1vw;
-    background-color: white;
+    /* background-color: white; */
     text-align: center;
     font-weight: bold;
     
+}
+
+.navigation-page.active-nav {
+    border: .3vw solid #64aef2;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+    .navigation-buttons button {
+        width: 5vw;
+        height: 5vw;
+        font-size: 2vw;
+    }
+
+    .navigation-page.active-nav {
+        border: .6vw solid #64aef2;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation-buttons button {
+        width: 7vw;
+        height: 7vw;
+        font-size: 3vw;
+    }
+
+    .navigation-page.active-nav {
+        border: 1vw solid #64aef2;
+    }
 }
