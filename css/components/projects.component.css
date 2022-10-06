@@ -1,5 +1,5 @@
 .projects {
-    background-color: #E8F4FF;
+    /* background-color: #E8F4FF; */
     display: flex;
     gap: 1vw;
     flex-direction: column;
@@ -10,7 +10,7 @@
     
 }
 
-.projects-heading {
+/* .projects-heading {
     font-size: 2vw;
     font-weight: bold;
     clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
@@ -21,34 +21,50 @@
 
     text-align: center;
     margin-bottom: 4vw;
+} */
+
+.project-content-wrapper {
+    width: 100vw;
+    background-color: #E8F4FF;
+
+    
+
+    /* height: 38vw; */
+}
+
+.project-content {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3vw 0;
 }
 
 .project {
-    /* padding: 1vw; */
     display: flex;
     gap: 0.5vw;
 }
 
-.project-screenshot {
+/* .project-screenshot {
     width: 22vw;
     height: 17vw;
     background-color: white;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
+} */
 
 .project-info {
     display: flex;
     flex-direction: column;
 
-    width: 58vw;
-    height: 17vw;
+    width: 45vw;
+    height: 15vw;
     background-color: white;
     
     justify-content: space-between;
-    /* padding-left: 5vw;
-    padding-right: 5vw; */
-    padding: 1vw 5vw;
+    padding: 1vw 3vw;
     padding-bottom: 0;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -58,14 +74,14 @@
     font-size: 2vw;
     font-weight: bold;
     width: 100%;
-    padding-bottom: 1vw;
+    /* padding-bottom: 1vw; */
     border-bottom: .13vw solid grey;
 }
 
 .project-links {
     font-size: 1vw;
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .project-links a {
@@ -78,7 +94,7 @@
 .created-using {
     font-weight: bold;
     margin-top: 2vw;
-    height: 7vw;
+    height: 6vw;
     width: 100%;
     background-color: #F5F5F5;
     border-top-left-radius: 3vw;
@@ -93,3 +109,17 @@
 .created-using-logo {
     height: 3vw;
 }
+
+/* @media (max-width: 1000px) {
+    .project-info {
+        width: 60vw;
+        height: 20vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-info {
+        width: 80vw;
+        height: 30vw;
+    }
+} */

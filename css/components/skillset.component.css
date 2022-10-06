@@ -20,7 +20,6 @@
     /* padding: 1vw 5vw; */
     /* background-color: #64aef2; */
     color: black;
-    align-self: flex-start;
     border-bottom: .1vw solid black;
     /* width: 50%; */
 
@@ -177,8 +176,9 @@
         height: 110vw;
     }
     .skillset-heading {
-        margin: 0 5vw;
+        /* padding: 0 3vw; */
         font-size: 5vw;
+        width: 80vw;
     }
 
     .skillset-heading span {

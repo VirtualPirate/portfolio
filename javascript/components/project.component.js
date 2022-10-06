@@ -26,7 +26,6 @@ class ProjectElement extends HTMLElement {
 
       this.innerHTML = `
                 <div class="project">
-                    <div class="project-screenshot"></div>
                     <div class="project-info">
                         <div class="project-name">${name}</div>
                         <div class="project-links">

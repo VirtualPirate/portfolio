@@ -7,3 +7,9 @@ section {
 a {
     color: #1B73BA;
 }
+
+@media (max-width: 600px) {
+    section {
+        padding: 0
+    }
+}
