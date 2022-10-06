@@ -30,12 +30,12 @@ class ProjectElement extends HTMLElement {
                         <div class="project-name">${name}</div>
                         <div class="project-links">
                                 <span class="project-code-link-title">Code Link: </span>
-                                <a class="project-code-link" href="#">${codeLink}</a>
+                                <a class="project-code-link" href="${codeLink}">${codeLink}</a>
                                 ${
                                   deployLink
                                     ? `
                                 <span class="project-deploy-link-title">Deploy Link: </span>
-                                <a class="project-deploy-link" href="#">${deployLink}</a>`
+                                <a class="project-deploy-link" href="${deployLink}">${deployLink}</a>`
                                     : ""
                                 }
                         </div>
