@@ -9,7 +9,6 @@ class SkillElement extends HTMLElement {
       this.hasAttribute("name") &&
       this.hasAttribute("level")
     ) {
-      console.log("The SkillElement constructor is called");
       const src = this.getAttribute("src");
       const name = this.getAttribute("name");
       const level = this.getAttribute("level");
