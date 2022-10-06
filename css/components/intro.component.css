@@ -1,6 +1,6 @@
 .intro {
     display: flex;
-    gap: 18vw;
+    justify-content: space-around;
 }
 
 .profile-img {
@@ -13,14 +13,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+
+    width: 50vw;
 }
 
 .intro-contact-button {
     color: #555;
     box-sizing: content-box;
-    padding: 1vw 2VW;
+    padding: .7vw 1.7VW;
     border: .1vw solid #aaa;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bold;
 
     box-shadow: .3vw .3vw 0px 0px #aaa;
@@ -33,14 +35,63 @@
 }
 
 .intro-text {
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
 }
 
+.intro-content {
+    font-size: 1vw;
+    color: #333;
+}
+
 .web-developer-tag {
-    font-size: 2.5vw;
-    padding: 1vw 2vw;
+    font-size: 2vw;
+    padding: .7vw 1.7vw;
     background-color: #64AEF2;
     border-radius: 100vw;
     color: white;
+}
+
+@media (max-width: 1000px) {
+    .profile-img {
+        width: 30vw;
+    }
+
+    .intro-wrapper {
+        width: 40vw;
+    }
+
+    .intro-content {
+        font-size: 1.2vw;
+    }
+
+    .intro-contact-button {
+        padding: 1vw 2vw;
+        font-size: 2vw;
+    }
+
+    .intro-text {
+        font-size: 4vw;
+    }
+
+    .web-developer-tag {
+        font-size: 2.5vw;
+        padding: 1vw 2vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .intro {
+        padding: 0;
+    }
+    .profile-img {
+        /* width: 20vw; */
+    }
+    .intro-wrapper {
+        width: 55vw;
+    }
+
+    .intro-content {
+        font-size: 1.4vw;
+    }
 }
