@@ -146,7 +146,8 @@
         height: 35vw;
     }
     .project-name {
-        font-size: 5vw;
+        font-size: 4vw;
+        color: #555;
     }
 
     .project-content {
