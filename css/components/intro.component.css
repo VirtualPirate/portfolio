@@ -23,17 +23,19 @@
 }
 
 .intro-contact-button {
-    color: #555;
+    color: black;
     box-sizing: content-box;
     padding: .7vw 1.7VW;
-    border: .1vw solid #aaa;
+    border: .1vw solid #64AEF2;
     font-size: 1.5vw;
     font-weight: bold;
 
-    box-shadow: .3vw .3vw 0px 0px #aaa;
+    box-shadow: .3vw .3vw 0px 0px #64AEF2;
     justify-self: flex-end;
 
     border-radius: 1vw;
+
+    background-color: #eff4ff;
     
 }
 

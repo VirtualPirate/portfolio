@@ -75,6 +75,7 @@
     font-size: 2vw;
     font-weight: bold;
     width: 100%;
+    color: #555;
     /* padding-bottom: 1vw; */
     border-bottom: .13vw solid grey;
 }
@@ -97,6 +98,7 @@
     margin-top: 2vw;
     height: 6vw;
     width: 100%;
+    color: #555;
     background-color: #F5F5F5;
     border-top-left-radius: 3vw;
     border-top-right-radius: 3vw;
@@ -147,7 +149,6 @@
     }
     .project-name {
         font-size: 4vw;
-        color: #555;
     }
 
     .project-content {
