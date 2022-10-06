@@ -32,6 +32,8 @@
 
     box-shadow: .3vw .3vw 0px 0px #aaa;
     justify-self: flex-end;
+
+    border-radius: 1vw;
     
 }
 

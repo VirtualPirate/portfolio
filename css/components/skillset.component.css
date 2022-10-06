@@ -173,7 +173,10 @@
         padding: 0;
     }
     .skillset-content-wrapper {
-        height: 110vw;
+        height: 115vw;
+    }
+    .skillset-content {
+        gap: 2vw;
     }
     .skillset-heading {
         /* padding: 0 3vw; */
