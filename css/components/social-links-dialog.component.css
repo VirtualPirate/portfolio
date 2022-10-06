@@ -205,14 +205,9 @@
 
 @media (max-width: 600px) {
     .social-links-dialog-hide {
-        width: 10vw;
+        font-size: 5vw;
+        width: 25vw;
         height: 10vw;
-        margin-bottom: 2vw;
-    }
-
-    .social-links-dialog-hide img {
-        width: 3vw;
-        height: 3vw;
     }
 }
 
