@@ -174,7 +174,8 @@
         gap: 0;
     }
     .skillset-content-wrapper {
-        height: 115vw;
+        height: 117vw;
+        padding-top: 3vw;
     }
     .skillset-content {
         gap: 2vw;

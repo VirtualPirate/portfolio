@@ -146,6 +146,9 @@
     .projects {
         gap: 0;
     }
+    .project-content-wrapper {
+        padding-top: 3vw;
+    }
     .project-info {
         width: 95vw;
         height: 35vw;
@@ -156,6 +159,7 @@
 
     .project-content {
         gap: 2vw;
+        /* padding-top: 5vw; */
     }
 
     .project-links {
