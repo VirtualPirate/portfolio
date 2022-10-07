@@ -33,6 +33,9 @@
 }
 
 @media (max-width: 600px) {
+    .navigation-buttons {
+        margin-top: 1vw;
+    }
     .navigation-buttons button {
         width: 7vw;
         height: 7vw;

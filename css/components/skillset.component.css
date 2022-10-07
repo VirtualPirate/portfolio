@@ -171,6 +171,7 @@
 @media (max-width: 600px) {
     .skillset {
         padding: 0;
+        gap: 0;
     }
     .skillset-content-wrapper {
         height: 115vw;
@@ -181,11 +182,20 @@
     .skillset-heading {
         /* padding: 0 3vw; */
         font-size: 5vw;
-        width: 80vw;
+        width: 100vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #64aef2;
+        color: white;
+        border: none;
+        padding: 2vw 0;
        
     }
 
     .skillset-heading span {
+        display: none;
         font-size: 4.5vw;
     }
     .skill {

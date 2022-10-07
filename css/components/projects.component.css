@@ -143,6 +143,9 @@
 }
 
 @media (max-width: 600px) {
+    .projects {
+        gap: 0;
+    }
     .project-info {
         width: 95vw;
         height: 35vw;
