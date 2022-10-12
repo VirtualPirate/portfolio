@@ -60,6 +60,7 @@ footer {
 }
 
 .footer-social {
+    cursor: pointer;
     display: flex;
     align-items: center;
     background-color: white;
@@ -120,6 +121,48 @@ footer {
     .footer-social-logo {
         height: 3vw;
         width: 3vw;
+    }
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+    }
+
+    .footer-heading {
+        font-size: 6vw;
+    }
+
+    .footer-contact-wrapper {
+        padding: 3vw 8vw;
+    }
+
+    .footer-contact-logo {
+        width: 4vw;
+    }
+
+    .footer-contact {
+        font-size: 4vw;
+    }
+
+    .footer-socials-wrapper {
+        grid-template-columns: 1fr 1fr;
+        width: fit-content;
+        gap: 1.5vw;
+
+        padding: 3vw 8vw;
+    }
+
+    .footer-social > span {
+        padding: 1vw 2vw;
+        font-size: 3vw;
+    }
+
+    .footer-social-logo {
+        height: 7vw;
+        width: 7vw;
     }
 }
 
