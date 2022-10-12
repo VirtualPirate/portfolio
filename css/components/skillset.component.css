@@ -170,7 +170,7 @@
 
 @media (max-width: 600px) {
     .skillset {
-        padding: 0 0 4vw 0;
+        padding: 0 0 8vw 0;
         gap: 0;
     }
     .skillset-content-wrapper {
