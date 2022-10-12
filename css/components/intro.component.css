@@ -47,6 +47,7 @@
 .intro-text {
     font-size: 3vw;
     font-weight: bold;
+    color: black;
 }
 
 .intro-content {
@@ -60,6 +61,10 @@
     background-color: #64AEF2;
     border-radius: 100vw;
     color: white;
+}
+
+.name-tag {
+    color: black;
 }
 
 @media (max-width: 1000px) {
