@@ -8,8 +8,25 @@ a {
     color: #1B73BA;
 }
 
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2.5vw;
+}
+
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 3vw;
+    }
+}
 @media (max-width: 600px) {
     section {
         padding: 0
+    }
+
+    h2 {
+        font-size: 5vw;
     }
 }
