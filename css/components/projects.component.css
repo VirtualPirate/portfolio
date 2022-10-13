@@ -85,6 +85,10 @@
     grid-template-columns: 1fr 4fr;
 }
 
+.project-links span {
+    color: black;
+}
+
 .project-links a {
     color: #64aef2;
     text-decoration: none;

@@ -25,6 +25,7 @@ class ProjectElement extends HTMLElement {
       }
 
       this.innerHTML = `
+                ${deployLink ? `<a href="${deployLink}>` : "<a>"}
                 <div class="project">
                     <div class="project-info">
                         <div class="project-name">${name}</div>
@@ -45,6 +46,7 @@ class ProjectElement extends HTMLElement {
                         </div>
                     </div>
                 </div>
+                </a>
                 `;
 
       this.inflateCreatedUsing(this.getAttribute("createdusing"));

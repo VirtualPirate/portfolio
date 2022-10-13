@@ -9,9 +9,26 @@
 
 </head>
 <body>
-    <nav class="header-navigation">
-        <img src="./graphics/envelope_navigation.svg" class="header-navigation-img" alt="">
+    <nav class="side-nav">
+        <div class="side-nav-sticky">
+            <button>
+                <img src="./graphics/xmark-solid.svg" alt="cross mark" class="close-side-nav-btn">
+            </button>
+            <ul class="side-nav-items">
+                <li>About</li>
+                <li>Services</li>
+                <li>Contacts</li>
+                <li>Hobby</li>
+                <li>More Info</li>
+            </ul>
+        </div>
     </nav>
+    <header class="header-navigation">
+        <img src="./graphics/envelope_navigation.svg" class="header-navigation-img" alt="">
+        <button>
+            <img src="./graphics/bars-solid.svg" class="header-navigation-bar" alt="">
+        </button>
+    </header>
     <div class="social-links-dialog-wrapper">
         <dialog class="social-links-dialog">
             <div class="social-links-wrapper">
@@ -227,34 +244,36 @@
         <div class="skillset-heading"> <span>#</span>PROJECTS </div>
         <div class="project-content-wrapper">
             <div class="project-content">
-                <div class="project">
-                    <!-- <div class="project-screenshot"></div> -->
-                    <div class="project-info">
-                        <div class="project-name">TILE MATCH PUZZLE GAME</div>
-                        <div class="project-links">
-                            <!-- <div class="project-link"> -->
-                                <span>Code Link: </span>
-                                <a href="https://github.com/VirtualPirate/TileMatchPuzzle">
-                                    https://github.com/VirtualPirate/TileMatchPuzzle
-                                </a>
-                            <!-- </div> -->
-                            <!-- <div class="project-link"> -->
-                                <span>Deploy Link: </span>
-                                <a href="https://fervent-shaw-814e26.netlify.app/">
-                                    https://fervent-shaw-814e26.netlify.app/
-                                 </a>
-                            <!-- </div> -->
-                        </div>
-        
-                        <div class="created-using">
-                            <span>CREATED USING: </span>
-                            <img src="./graphics/skillset/html.svg" class="created-using-logo" alt="">
-                            <img src="./graphics/skillset/css.svg" class="created-using-logo" alt="">
-                            <img src="./graphics/skillset/javascript.svg" class="created-using-logo" alt="">
-        
+                <a href="https://github.com/VirtualPirate/TileMatchPuzzle">
+                    <div class="project">
+                        <!-- <div class="project-screenshot"></div> -->
+                        <div class="project-info">
+                            <div class="project-name">TILE MATCH PUZZLE GAME</div>
+                            <div class="project-links">
+                                <!-- <div class="project-link"> -->
+                                    <span>Code Link: </span>
+                                    <a href="https://github.com/VirtualPirate/TileMatchPuzzle">
+                                        https://github.com/VirtualPirate/TileMatchPuzzle
+                                    </a>
+                                <!-- </div> -->
+                                <!-- <div class="project-link"> -->
+                                    <span>Deploy Link: </span>
+                                    <a href="https://fervent-shaw-814e26.netlify.app/">
+                                        https://fervent-shaw-814e26.netlify.app/
+                                    </a>
+                                <!-- </div> -->
+                            </div>
+            
+                            <div class="created-using">
+                                <span>CREATED USING: </span>
+                                <img src="./graphics/skillset/html.svg" class="created-using-logo" alt="">
+                                <img src="./graphics/skillset/css.svg" class="created-using-logo" alt="">
+                                <img src="./graphics/skillset/javascript.svg" class="created-using-logo" alt="">
+            
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
                 <div class="project">
                     <!-- <div class="project-screenshot"></div> -->
                     <div class="project-info">
@@ -365,6 +384,7 @@
     </footer>
 
     <script src="./javascript/utils/social-links-dialog.util.js"></script>
+    <script src="./javascript/utils/header-navigation.util.js"></script>
     <script src="./javascript/components/skill.component.js"></script>
     <script type="module" src="./javascript/main.js"></script>
     <script type="module" src="./javascript/components/project.component.js"></script>
