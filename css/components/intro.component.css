@@ -1,10 +1,10 @@
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .profile-img {
-    width: 20vw;
+    width: 15vw;
     /* margin-bottom: 20vw; */
 }
 
@@ -15,7 +15,7 @@
     gap: 3vw;
     align-items: flex-start;
 
-    width: 50vw;
+    width: 62vw;
 }
 
 .intro-text-profile-img{
@@ -71,11 +71,11 @@
 
 @media (max-width: 1000px) {
     .profile-img {
-        width: 30vw;
+        width: 20vw;
     }
 
     .intro-wrapper {
-        width: 40vw;
+        width: 55vw;
     }
 
     .intro-content {
@@ -105,12 +105,14 @@
     .intro-text-wrapper {
         display: flex;
         gap: 5vw;
+        
     }
     .intro-text-profile-img {
         display: block;
         width: 15vw;
         height: 15vw;
-        border-radius: 2vw;
+        border-radius: 10vw;
+        rotate: -9deg;
         
     }
     .profile-img {

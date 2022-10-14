@@ -4,7 +4,7 @@ html {
 
 section {
 
-    padding: 0 8vw 4vw 8vw;
+    padding: 0 8vw 2vw 8vw;
     /* margin-bottom: 8vw; */
     /* padding-bottom: 8vw; */
 }
@@ -33,7 +33,8 @@ ul li {
 }
 @media (max-width: 600px) {
     section {
-        padding: 0
+        padding: 0;
+        margin-bottom: 5vw;
     }
 
     h2 {
